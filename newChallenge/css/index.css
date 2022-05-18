@@ -1,0 +1,320 @@
+.keys{
+    background:url(../img/backk.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+
+.boite1{
+
+padding-top: 14%;
+padding-bottom: 6%;
+margin-left: 5%;
+margin-right: 5%;
+
+}
+
+
+.container{
+max-width: 2000px;
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+}
+                                                                                                        
+
+
+
+.left{
+    height: 100%;
+    position: relative;
+    z-index: 200;
+}
+
+ .left h1{
+
+    font-weight: 1000;
+    font-size: 4rem;
+    letter-spacing: -.14rem;
+    grid-column: 4/5;
+
+    margin-top: 47%;
+
+    margin-left: 5rem;
+
+    margin-bottom: 8rem;
+    line-height: 1.5;
+
+    font-family:  sans-serif;
+
+
+}
+
+ .left h1 span{
+    overflow: hidden;
+    display: block;
+}
+
+ .left h1 span:nth-child(2) span{
+    animation-delay: 200ms;
+}
+
+  .left h1 span:nth-child(3) span{
+    animation-delay: 400ms;
+}
+
+  .left h1 span span{
+    display: block;
+    animation: spanFadeIn 500ms ease forwards;
+    transform: translateY(100%);
+}
+
+
+@keyframes spanFadeIn{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+  .right{
+    display: flex;
+    height: 100%;
+    gap: 2rem;
+    grid-column: 3/15;
+}
+
+ .right .item{
+    background-position: center;
+    background-size: auto 100%;
+    border-radius: .5rem;
+    flex-grow: 1;
+    transition: width 350ms ease;
+    width: 15%;
+}
+
+  .right .item:hover{
+    width: 100%;
+}
+
+
+
+.textCont{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+
+
+
+.discover{
+
+    text-align: center;
+justify-content: center;
+color: black;
+margin-bottom: 100px;
+}
+
+
+
+
+
+
+.boite{
+
+    padding-top: 14%;
+    padding-bottom: 6%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color : rgba(146, 143, 143, 0.433);
+    
+    }
+
+.container2{
+max-width: 2000px;
+display: grid;
+grid-template-columns: repeat(8, 1fr);
+}
+                                                                                                        
+
+
+                                                                                                                           
+
+
+ .left2{
+    height: 100%;
+    position: relative;
+    z-index: 200;
+
+}
+
+ .left2 h1{
+
+    font-weight: 1000;
+    font-size: 4rem;
+    letter-spacing: -.14rem;
+    grid-column: 4/5;
+
+    margin-top: 47%;
+    
+    margin-bottom: 8rem;
+    line-height: 1.5;
+
+}
+
+ .left2 h1 span{
+    overflow: hidden;
+    display: block;
+}
+
+
+ .left2 h1 span:nth-child(2) span{
+    animation-delay: 200ms;
+}
+
+ .left2 h1 span:nth-child(3) span{
+    animation-delay: 400ms;
+}
+
+ .left2 h1 span span{
+    display: block;
+    animation: spanFadeIn 500ms ease forwards;
+    transform: translateY(100%);
+}
+
+
+@keyframes spanFadeIn{
+    0%{
+        transform: translateY(100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+ .right2{
+    display: flex;
+    height: 100%;
+    gap: 2rem;
+    grid-column: 3/15;
+    padding-right: 15%;
+}
+
+.item1{
+    background-position: center;
+    background-size: auto 100%;
+    border-radius: .5rem;
+    flex-grow: 1;
+    transition: width 350ms ease;
+    width: 40%;
+}
+.item2{
+    background-position: center;
+    background-size: auto 100%;
+    border-radius: .5rem;
+    flex-grow: 1;
+    transition: width 350ms ease;
+    width: 0;
+}
+
+.item1:hover{
+    width: 80%;
+}
+
+
+
+
+
+
+
+.textCont{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+.discover{
+
+    text-align: center;
+justify-content: center;
+color: black;
+margin-bottom: 100px;
+}
+
+
+
+
+    
+
+    
+
+.suite1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 55px;
+    margin-bottom: 100px;
+}
+
+.suite1 p{
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.suite-icone{
+    padding-left: 25%;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.products{
+    justify-content: center;
+}
+
+
+
+
+.suite1 div .suite-text p{
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.suite-text{
+    margin-bottom: 12px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.suite h2{
+    text-align: center;
+    font-family:  sans-serif;
+    font-weight: 1000;
+    font-size: 4rem;
+    margin-bottom: 200px;
+
+    margin-top: 200px;
+}
+
+
+.suite h2 span{
+    overflow: hidden;
+    display: block;
+}
+

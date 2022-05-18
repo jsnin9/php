@@ -1,0 +1,84 @@
+
+
+
+.catalogue{
+  font-weight: 900;
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer; /*change le curseur*/
+  /*margin: 100px auto;*/ /*marge exterieur auto ou 100px*/
+  margin: 5% 10% 10% 10%;
+  gap: 100px;
+  justify-content:center;
+
+
+}
+
+.tac{
+  width:40%;
+  border: 5px solid #eb7371; /*bordure du tableaux*/
+  box-shadow: 0 5px 50px rgba(0, 0, 0, 15); /* ombre derriere les tableaux*/
+}
+
+
+img{
+  transition: 0.3s;
+  width:80%;
+}
+
+ img:hover {
+  transform: scale(1.8);
+
+}
+
+.button1{
+  padding: 10px 15px; /* augmente la taille du bouton*/
+  border: none; /* enleve la bordure*/
+  border-radius: 5px;  /*arrondi le bouton*/
+  font-size: 15px; /*aggrandi taille de l'écriture*/
+  color: #fff; /* ecriture en blanche*/
+  background-color : #eb7371; /* fond orangé*/
+  outline: none; /* enleve la ligne rouge qd on appuie*/
+  cursor: pointer; /*change le curseur*/
+  margin-left: 85%;
+}
+
+.button2{
+  text-align: center;
+  border: none; /* enleve la bordure*/
+  border-radius: 5px;  /*arrondi le bouton*/
+  font-size: 15px; /*aggrandi taille de l'écriture*/
+  color: #fff; /* ecriture en blanche*/
+  background-color : #eb7371; /* fond orangé*/
+  outline: none; /* enleve la ligne rouge qd on appuie*/
+  cursor: pointer; /*change le curseur*/
+  border-radius: 5px;  /*arrondi le bouton*/
+
+}
+
+.button3{
+  text-align: center;
+  margin-right:5px; /*espacé les icones*/
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none; /* enleve la bordure*/
+  background-color : #eb7371; /* fond orangé*/
+  font-size: 15px; /*aggrandi taille de l'écriture*/
+  color: #fff; /* ecriture en blanche*/
+  outline: none; /* enleve la ligne rouge qd on appuie*/
+  cursor: pointer; /*change le curseur*/
+  border-radius: 5px;  /*arrondi le bouton*/
+
+}
+
+.nb{
+  text-align: center;
+  border-color: #eb7371; /* couleur de la bordure*/
+  font-size: 15px; /*aggrandi taille de l'écriture*/
+}
+
+.stock{
+  display: none;
+  border: none; /* enleve la bordure*/
+}

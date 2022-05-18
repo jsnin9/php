@@ -1,0 +1,52 @@
+.tab{
+  display: flex;
+  margin-top: 10%;
+  float:left ;
+  margin-left: 20%;
+
+}
+
+.cat {
+  font-weight: 900;
+  border-collapse: collapse; /*fusionner les bordures*/
+  width: 90%; /* largeur du tableau*/
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 15); /* ombre derriere les tableaux*/
+  cursor: pointer; /*change le curseur*/
+  margin: 100px auto; /*marge exterieur auto ou 100px*/
+  border: 5px solid #eb7371; /*bordure du tableaux*/
+}
+
+.cat1 {
+  font-size: 900 ;
+  border-collapse: collapse; /*fusionner les bordures*/
+  width: 110%; /* largeur du tableau*/
+  box-shadow: 0 0px 00px rgba(0, 0, 0, 15); /* ombre derriere les tableaux*/
+  cursor: pointer; /*change le curseur*/
+  margin: 100px auto; /*marge exterieur auto ou 100px*/
+  border: 5px solid #fff; /*bordure du tableaux*/
+  margin-top: 750%;
+  margin-left: 1500%;
+}
+
+
+  .cat1 thead{
+  position: fixed;
+}
+
+
+.cat1 thead tr{
+  background-color: #f2f2f2;
+  padding : 15px 20px; /*marge interieur 15px haut/bas et 20px droite/gauche*/
+  border: 2px dotted black;
+  font-size: 30px ;
+} 
+
+.cat thead tr th{
+  background-color: #eb7371;
+  padding : 15px 20px; /*marge interieur 15px haut/bas et 20px droite/gauche*/
+}
+
+.cat tbody tr{
+  padding : 15px 20px; /*marge interieur 15px haut/bas et 20px droite/gauche*/
+  border: 2px solid black; /*ligne tableaux pour séparer les cases*/
+}
