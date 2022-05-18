@@ -1,0 +1,125 @@
+.keys{
+    background:url(../img/backk.jpg);
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+.box{
+    
+    padding-top: 14%;
+    padding-bottom: 2%;  
+    padding-left:30%;
+    padding-right: 30%;
+    
+}
+
+.form{
+    justify-content: center; /*centrer le texte*/
+    align-items: center;
+    font-family: 'Roboto', sans-serif; /*changer police*/
+    background-color: #fff;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius:2%;
+    padding-bottom: 2%;  
+
+
+}
+
+
+  form h2{
+    color:#eb7371; /*changer couleur titre principal*/
+    text-align: center; /* centrer titre*/
+  }
+
+
+.form-control, .form-control1  {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label, .form-control1 label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+
+.form-control input, .form-control select, .form-control textarea, .form-control1 span  {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.form-control input:focus, .form-control1 div:focus {
+    outline: 0;
+    border-color: #777;
+}
+
+
+.form-control.success input, .form-control.success select, .form-control.success textarea, .form-control1.success span   {
+    border-color: #2ecc71;
+}
+
+
+.form-control.error input, .form-control1.error span {
+    border-color: #e74c3c;
+}
+
+
+.form-control i, .form-control1 i {
+    position: absolute;
+    visibility: hidden;
+    top: 40px;
+    right: 10px;
+}
+
+
+.form-control.success i.fa-check-circle, .form-control1.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  
+}
+
+
+.form-control.error i.fa-exclamation-circle, .form-control1.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+
+.form-control small, .form-control1 small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+
+.form-control.error small, .form-control1.error small {
+    visibility: visible;
+}
+
+
+.form button {
+    background-color:  #eb7371;
+    border: 2px solid  #eb7371;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-family: 'Roboto', sans-serif;	
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
